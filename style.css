@@ -5,6 +5,20 @@
 }
 body {
     width: 100%;
-    background-color: #c83e3e;
+    background-color: #000;
     position: absolute;
+}
+.jumbotron {
+    background-image: url(https://drive.google.com/uc?id=1JBxcHu1arKT6nbc-Kci9W976foTZrnhd);
+    background-size: cover;
+}
+.wrapper {
+    padding:0 10%
+}
+section{
+    color: #fff;
+}
+.title {
+    font-size: 45px;
+    font-weight: bold;
 }
