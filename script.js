@@ -35,3 +35,13 @@ function cekKolomKosong() {
         return true;
     }
 }
+
+$('.page-scroll').on('click', function (e) {
+    var tujuan = $(this).attr('href');
+    var elementTujuan = $(tujuan);
+    //console.log(elementTujuan.offset().top);
+    $('html, body').animate({
+        scrollTop: elementTujuan.offset().top - 60
+    }, 200);
+    e.preventDefault();
+});
